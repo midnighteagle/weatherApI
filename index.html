@@ -1,0 +1,50 @@
+<!-- Create a Weather app using the api in java script with good UI using html and Css  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shape1 shape">
+
+    </div>
+    <div class="shape2 shape">
+
+    </div>
+    <div class="back">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Search for a City" id="search">
+                <button id ="btn"><img src="Search.svg" alt="search"></button>
+            </div>
+            <h3 id ="invalid">
+                Invalid City
+            </h3>
+            <div class="weatherStatus">
+                
+                <div class="w1">
+                    <img src="day.svg" alt="day">
+                    <h1 id = "temp">26°C</h1>
+                    <h1 id="city"city>Delhi</h1>
+                </div>
+                <div class="w2">
+                    <div class="humidity">
+                        <img src="Humidity.svg" alt="humidity" width="40">
+                        <h2 id ="dh">20%</h2>
+                        <h2 id="th">Humidity</h2>
+                    </div>
+                    <div class="Wind">
+                        <img src="windspeed.svg" alt="Wind" width="40">
+                        <h2 id ="dw">20km/h</h2>
+                        <h2 id="tw">Wind</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
